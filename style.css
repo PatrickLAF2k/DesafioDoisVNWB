@@ -1,0 +1,117 @@
+body {
+  background-color: white;
+  height: 100%;
+  margin: 0;
+}
+
+header {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+footer {
+  background-color: yellow;
+  padding: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgPerfil {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.nomePerfil {
+  color: black;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  padding: 10px;
+}
+
+.imgJogo {
+  width: 200px;
+  height: auto;
+  border-radius: 30%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.imgAcademia {
+  width: 200px;
+  height: auto;
+  border-radius: 30%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.linkTree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.imgGit {
+  width: 50px;
+  height: auto;
+}
+
+.imgLinkedin {
+  width: 55px;
+  height: auto;
+}
+
+.imgInstagram {
+  width: 45px;
+  height: auto;
+}
+
+.textoPrincipal {
+  text-align: center;
+}
+
+.listas {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: center;
+}
+.listas ol li a {
+  text-decoration: none;
+}
+
+.lista {
+  flex: 1;
+  text-align: center;
+}
+
+.local {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.local h3 a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
