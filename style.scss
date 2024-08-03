@@ -1,7 +1,7 @@
 body {
-  background-color: white;
   height: 100%;
   margin: 0;
+  background-color: grey;
 }
 
 header {
@@ -9,10 +9,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  // background-color: yellow;
+  background-color: rgb(158, 148, 148);
   // h1 {
   //   color: blue;
   // }
+
 }
 
 main {
@@ -30,11 +31,9 @@ main {
 }
 
 footer {
-  background-color: yellow;
   padding: 1px;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  background-color: rgb(158, 148, 148);
 }
 
 // .titulo{
@@ -48,9 +47,9 @@ footer {
   object-fit: cover;
 }
 
-.nomePerfil {
-  color: black;
-}
+// .nomePerfil {
+//   color: rgb(255, 255, 255);
+// }
 
 .container {
   display: flex;
@@ -63,6 +62,8 @@ footer {
   align-items: center;
   width: 200px;
   padding: 10px;
+  border-radius: 30px;
+  background-color: rgb(158, 148, 148);
 }
 
 .imgJogo {
@@ -104,6 +105,9 @@ footer {
 .textoPrincipal {
   // color: white;
   text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  
 }
 
 .listas {
@@ -126,7 +130,6 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10px;
 
   h3 a {
     text-decoration: none;

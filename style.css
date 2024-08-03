@@ -1,7 +1,7 @@
 body {
-  background-color: white;
   height: 100%;
   margin: 0;
+  background-color: grey;
 }
 
 header {
@@ -9,6 +9,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgb(158, 148, 148);
 }
 
 main {
@@ -17,11 +18,9 @@ main {
 }
 
 footer {
-  background-color: yellow;
   padding: 1px;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  background-color: rgb(158, 148, 148);
 }
 
 .imgPerfil {
@@ -30,10 +29,6 @@ footer {
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.nomePerfil {
-  color: black;
 }
 
 .container {
@@ -47,6 +42,8 @@ footer {
   align-items: center;
   width: 200px;
   padding: 10px;
+  border-radius: 30px;
+  background-color: rgb(158, 148, 148);
 }
 
 .imgJogo {
@@ -89,6 +86,8 @@ footer {
 
 .textoPrincipal {
   text-align: center;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .listas {
@@ -110,7 +109,6 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10px;
 }
 .local h3 a {
   text-decoration: none;
