@@ -1,7 +1,6 @@
 body {
-  height: 100%;
   margin: 0;
-  background-color: grey;
+  background-color: rgb(173, 173, 173);
 }
 
 header {
@@ -9,75 +8,26 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(158, 148, 148);
-  // h1 {
-  //   color: blue;
-  // }
-
+  background-color: rgb(116, 116, 116);
 }
 
 main {
-  // background-color: black;
-  flex: 1;
-  padding: 20px;
-
-  // h2{
-  //   color: white;
-  // }
-
-  // ol{
-  //   color: white;
-  // }
+  margin: 0 40px 0 40px;
 }
 
 footer {
-  padding: 1px;
-  align-items: center;
-  background-color: rgb(158, 148, 148);
+  background-color: rgb(116, 116, 116);
 }
-
-// .titulo{
-//   color: red;
-// }
 
 .imgPerfil {
-  width: 200px;
-  height: auto;
+  width: 237px;
+  height: 229px;
   border-radius: 50%;
-  object-fit: cover;
+  margin-left: 40px;
 }
 
-// .nomePerfil {
-//   color: rgb(255, 255, 255);
-// }
-
-.container {
-  display: flex;
-  height: 100%;
-}
-
-.sidebar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 200px;
-  padding: 10px;
-  border-radius: 30px;
-  background-color: rgb(158, 148, 148);
-}
-
-.imgJogo {
-  width: 200px;
-  height: auto;
-  border-radius: 30%;
-  object-fit: cover;
-}
-
-.imgAcademia {
-  width: 200px;
-  height: auto;
-  border-radius: 30%;
-  object-fit: cover;
+.nomePerfil{
+  margin-left: 40px;
 }
 
 .linkTree {
@@ -103,35 +53,19 @@ footer {
 }
 
 .textoPrincipal {
-  // color: white;
-  text-align: center;
-  font-weight: bold;
-  font-size: 15px;
-  
-}
-
-.listas {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  text-align: center;
-
-  ol li a {
-    text-decoration: none;
-  }
-}
-
-.lista {
-  flex: 1;
-  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
 }
 
 .local {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-
+  margin-left: 40px;
   h3 a {
     text-decoration: none;
   }
+}
+
+.lista{
+  margin: 0 40px 0 40px;
 }
